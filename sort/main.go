@@ -1,8 +1,9 @@
 package main
 
 import (
-	"algorithm/BubbleSort"
 	"fmt"
+
+	"github.com/hwdef/go-algorithm/sort/QuickSort"
 )
 
 func main() {
@@ -13,5 +14,8 @@ func main() {
 	//a = []int{6, 5, 3, 1, 8, 7, 2, 4}
 	//fmt.Println(InsertionSort.InsertionSort(a))
 	a = []int{6, 5, 3, 1, 8, 7, 2, 4}
-	fmt.Println(BubbleSort.BubbleSort(a))
+	// fmt.Println(BubbleSort.BubbleSort(a))
+	fmt.Println(a)
+	QuickSort.QuickSort(a)
+	fmt.Println(a)
 }
