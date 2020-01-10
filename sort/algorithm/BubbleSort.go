@@ -1,4 +1,4 @@
-package BubbleSort
+package algorithm
 
 import "fmt"
 

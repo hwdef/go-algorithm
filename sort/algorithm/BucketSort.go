@@ -1,4 +1,4 @@
-package BucketSort
+package algorithm
 
 func BucketSort(a []int) []int{
 	var b = [10]int{0}

@@ -1,4 +1,4 @@
-package InsertionSort
+package algorithm
 
 func InsertionSort(a []int) []int {
 	for i := 1; i < len(a); i++ {
